@@ -81,6 +81,14 @@ public class Main {
 
 
         // Bài 3: In ra bảng cửu chương từ 1 đến 9 dùng vòng lặp for.
+        System.out.println("Bảng cưu chương.");
+        for (int i = 1; i <= 9; i++) {
+            System.out.println("Bảng nhân " + i + " là: ");
+            for (int j = 1; j <= 9; j++) {
+                System.out.printf("%d x %d = %d\n", i, j, i * j);}
+        }
+        System.out.println();
+
 
 
 
